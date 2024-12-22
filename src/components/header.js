@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ContainerGrid } from "./Container";
+import { ContainerGrid } from "@/components/container";
 import Link from "next/link";
 
 export function HeaderTecsany() {
