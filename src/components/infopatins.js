@@ -17,7 +17,7 @@ export function InfoPatinSection() {
     return(
         <div className="relative">
             <ContainerGrid>
-                <div className="flex flex-col items-center justify-center my-16 pt-16 pb-[414px] bg-[#E8F4ED] rounded-[41px]" >
+                <div className="flex flex-col items-center justify-center my-16 pt-16 pb-40 @tablet:pb-60 bg-[#E8F4ED] rounded-[41px] text-center @desktop:pb-[414px]" >
                     <span className="font-dmsans font-bold text-lg">MEIO DE TRANSPORTE INTELIGENTE</span>
                     <h2 className="font-syne text-6xl mt-6 mb-8" >Velocidade na medida certa</h2>
                     <ul className="flex items-center gap-6" >

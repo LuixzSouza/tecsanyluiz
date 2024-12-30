@@ -17,12 +17,14 @@ export function HeaderTecsany() {
                         Tecsany
                     </span>
                 </div>
-                <Link href={"#"} className="font-dmsans font-medium text-xs">
-                    PARA EMPRESAS
-                </Link>
-                <Link href={"#"} className="font-dmsans font-medium text-xs">
-                    PARA CLIENTES
-                </Link>
+                <div className="hidden items-center justify-center gap-16 @desktop:flex" >
+                    <Link href={"#"} className="font-dmsans font-medium text-xs">
+                        PARA EMPRESAS
+                    </Link>
+                    <Link href={"#"} className="font-dmsans font-medium text-xs">
+                        PARA CLIENTES
+                    </Link>
+                </div>
             </div>
             <div className="flex items-center gap-6" >
                 <Image
